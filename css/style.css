@@ -35,13 +35,21 @@ body {
     border: none; 
     padding: 10px 0px;
     font-size: 30px;
-    font-weight: 400px;
+    font-weight: 400;
     background: transparent;
     text-align: center;
 }
 
 #login-form input {
-    padding-bottom: 20px;
+    margin-bottom: 15px;
+}
+
+#login-form input[type="submit"] {
+    color: white;
+    font-size: 20px;
+    background-color: gray;
+    border-radius: 22px;
+    padding: 10px;
 }
 
 #todo-form input {
