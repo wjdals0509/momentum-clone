@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600&display=swap');
 
+@import "reset.css";
 
 .hidden {
     display: none;
@@ -16,19 +17,20 @@ body {
     display: flex;
     flex-direction: column;
     text-align: center;
-    align-items: center;
+    height: 100vh;
 }
 
 #clock {
     font-size: 150px;
     font-weight: 600;
-    margin-bottom: 0px;
+    margin-top: 35vh;
 }
 
 #greeting {
     font-size: 50px;
     font-weight: 400;
 }
+
 
 #login-form input,
 #todo-form input {
@@ -72,13 +74,13 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    width: 80%;
+    height: 20vh;
+    align-items: center;
 }
 
 #todo-list li {
     list-style-type : none;
     width: 25%;
-    display: flex;
 }
 
 #todo-list button {
@@ -86,6 +88,9 @@ body {
     border: none;
 }
 
+#quote {
+    margin-top: 5vh;
+}
 #weather {
     position: absolute;
     font-size: 20px;
