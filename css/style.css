@@ -9,7 +9,7 @@ body {
     color: white;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 400;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .flex {
@@ -22,7 +22,7 @@ body {
 #clock {
     font-size: 150px;
     font-weight: 600;
-    margin: 70px 0px;
+    margin-bottom: 0px;
 }
 
 #greeting {
@@ -34,7 +34,7 @@ body {
 #todo-form input {
     border: none; 
     padding: 10px 0px;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 400;
     background: transparent;
     text-align: center;
@@ -76,24 +76,19 @@ body {
 }
 
 #todo-list li {
+    list-style-type : none;
     width: 25%;
+    display: flex;
 }
 
 #todo-list button {
     background-color:transparent;
     border: none;
 }
-#quote,
+
 #weather {
     position: absolute;
     font-size: 20px;
-}
-
-#quote {
-    bottom: 10px;
-}
-
-#weather {
     top: 10px;
     right: 10px;
 }
