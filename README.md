@@ -1,3 +1,3 @@
-# Momentum Clone 2022 Update
+# Momentum Clone 2022
 
-~2022.12
+https://wjdals0509.github.io/momentum-clone-2022/index.html
